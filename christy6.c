@@ -1,12 +1,12 @@
 #include "monty.h"
 /**
- * _fpall - function outputs the stack
+ * display_stack - function outputs the stack
  * @h: stack top point
  * @counter: not utilized
  * Return: void
 */
 
-void _fpall(stack_t **h, unsigned int counter)
+void display_stack(stack_t **h, unsigned int counter)
 {
 	stack_t *m;
 	(void)counter;

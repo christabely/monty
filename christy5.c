@@ -1,12 +1,12 @@
 #include "monty.h"
 /**
- * _fmul - function that computes two elements of the stack.
+ * smul - function that computes two elements of the stack.
  * @h: the stack head
  * @counter: line_index
  * Return: void
-*/
+ */
 
-void _fmul(stack_t **h, unsigned int counter)
+void smul(stack_t **h, unsigned int counter)
 {
 	stack_t *m;
 	int len = 0, aux;

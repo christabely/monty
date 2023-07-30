@@ -12,16 +12,16 @@
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 {
 	instruction_t opst[] = {
-				{"push", _fpush}, {"pall", _fpall}, {"pint", printstack_top},
+				{"push", _fpush}, {"pall", display_stack}, {"pint", printstack_top},
 				{"pop", pop_element},
 				{"swap", _fswap},
 				{"add", _fadd},
 				{"nop", _fnop},
 				{"sub", _fsub},
 				{"div", _fdiv},
-				{"mul", _fmul},
+				{"mul", smul},
 				{"mod", _fmod},
-				{"pchar", _fpchar},
+				{"pchar", pchar},
 				{"pstr", _fpstr},
 				{"rotl", _frotl},
 				{"rotr", _frotr},
