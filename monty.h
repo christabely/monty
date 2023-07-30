@@ -63,19 +63,19 @@ int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 void freestack(stack_t *h);
 void pop_element(stack_t **h, unsigned int counter);
 void _fswap(stack_t **h, unsigned int counter);
-void _fadd(stack_t **h, unsigned int counter);
+void add_stack(stack_t **h, unsigned int counter);
 void _fnop(stack_t **h, unsigned int counter);
 void _fsub(stack_t **h, unsigned int counter);
 void _fdiv(stack_t **h, unsigned int counter);
 void smul(stack_t **h, unsigned int counter);
-void _fmod(stack_t **h, unsigned int counter);
+void _modulo(stack_t **h, unsigned int counter);
 void pchar(stack_t **h, unsigned int counter);
 void _fpstr(stack_t **h, unsigned int counter);
-void _frotl(stack_t **h, unsigned int counter);
+void move_top(stack_t **h, unsigned int counter);
 void _frotr(stack_t **h, __attribute__((unused)) unsigned int counter);
 void addnode(stack_t **h, int n);
 void addqueue(stack_t **h, int n);
 void _fqueue(stack_t **h, unsigned int counter);
-void _fstack(stack_t **h, unsigned int counter);
+void out_stack(stack_t **h, unsigned int counter);
 
 #endif

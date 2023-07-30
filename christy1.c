@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * _fadd - function that sums up elements of the stack.
- * @h: head of stack
- * @counter: linr
+ * add_stack - sums the top two elements of the stack.
+ * @h: stack head
+ * @counter: for line
  * Return: void
- */
+*/
 
-void _fadd(stack_t **h, unsigned int counter)
+void add_stack(stack_t **h, unsigned int counter)
 {
 	stack_t *m;
 	int len = 0, aux;

@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * _fstack - function that outputs value
+ * out_stack - function that outputs value
  * @h: stack head
  * @counter: line
  * Return: void
  */
 
-void _fstack(stack_t **h, unsigned int counter)
+void out_stack(stack_t **h, unsigned int counter)
 {
 	(void)h;
 	(void)counter;

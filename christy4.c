@@ -1,12 +1,12 @@
 #include "monty.h"
 /**
- * _fmod - function evaluates element of the stack
+ * _modulo - function evaluates element of the stack
  * @h: stack head
  * @counter: line_index
  * Return: void
  */
 
-void _fmod(stack_t **h, unsigned int counter)
+void _modulo(stack_t **h, unsigned int counter)
 {
 	stack_t *m;
 	int len = 0, aux;

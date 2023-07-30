@@ -15,18 +15,18 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				{"push", _fpush}, {"pall", display_stack}, {"pint", printstack_top},
 				{"pop", pop_element},
 				{"swap", _fswap},
-				{"add", _fadd},
+				{"add", add_stack},
 				{"nop", _fnop},
 				{"sub", _fsub},
 				{"div", _fdiv},
 				{"mul", smul},
-				{"mod", _fmod},
+				{"mod", _modulo},
 				{"pchar", pchar},
 				{"pstr", _fpstr},
-				{"rotl", _frotl},
+				{"rotl", move_top},
 				{"rotr", _frotr},
 				{"queue", _fqueue},
-				{"stack", _fstack},
+				{"stack", out_stack},
 				{NULL, NULL}
 				};
 	unsigned int i = 0;

@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * _frotl - function that repositions stack to the top
- * @h: stack head
- * @counter: line 
+ * move_top - function that repositions stack to the top
+ * @h: stack top
+ * @counter: line_imndex
  * Return: void
  */
 
-void _frotl(stack_t **h,  __attribute__((unused)) unsigned int counter)
+void move_top(stack_t **h,  __attribute__((unused)) unsigned int counter)
 {
 	stack_t *tmp = *h, *aux;
 
