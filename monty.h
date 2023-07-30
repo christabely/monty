@@ -58,7 +58,7 @@ ssize_t getstdin(char **lineptr, int file);
 char  *clean_line(char *content);
 void _fpush(stack_t **h, unsigned int number);
 void _fpall(stack_t **h, unsigned int number);
-void _fpint(stack_t **h, unsigned int number);
+void printstack_top(stack_t **h, unsigned int number);
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 void freestack(stack_t *h);
 void pop_element(stack_t **h, unsigned int counter);
