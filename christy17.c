@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * _fpush - function insert node instack
+ * push_stack - function insert node instack
  * @h: head of stack
  * @counter: line
  * Return: void
  */
 
-void _fpush(stack_t **h, unsigned int counter)
+void push_stack(stack_t **h, unsigned int counter)
 {
 	int i, j = 0, flag = 0;
 

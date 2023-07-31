@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * _fdiv - divides elements of stack
+ * divide_stack - divides elements of stack
  * @h: stack head
- * @counter: line_index
+ * @counter: for line
  * Return: void
  */
 
-void _fdiv(stack_t **h, unsigned int counter)
+void divide_stack(stack_t **h, unsigned int counter)
 {
 	stack_t *m;
 	int len = 0, aux;

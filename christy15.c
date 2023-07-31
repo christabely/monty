@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * _fsub - function that performs deduction
+ * sub_stack - function that performs deduction
  * @h: head of stack
  * @counter: line
  * Return: no return
  */
 
-void _fsub(stack_t **h, unsigned int counter)
+void sub_stack(stack_t **h, unsigned int counter)
 {
 	stack_t *aux;
 	int sus, nodes;

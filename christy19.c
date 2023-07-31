@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * _fswap - function that combines elements of stack
+ * swap_stack - function that combines elements of stack
  * @h: head of stack
  * @counter: line index
  * Return: void
-*/
+ */
 
-void _fswap(stack_t **h, unsigned int counter)
+void swap_stack(stack_t **h, unsigned int counter)
 {
 	stack_t *m;
 	int len = 0, aux;

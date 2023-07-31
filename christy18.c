@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * _fnop - function for stack
+ * stack_nop- performs no operation
  * @h: head of stack
  * @counter: line
  * Return: void
  */
 
-void _fnop(stack_t **h, unsigned int counter)
+void stack_nop(stack_t **h, unsigned int counter)
 {
 	(void) counter;
 	(void) h;

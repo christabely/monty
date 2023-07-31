@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * _frotr- repositions the stack to the bottom
+ * _crotr- repositions the stack to the bottom
  * @h: stack top
  * @counter: line_index
  * *Return: void
  */
 
-void _frotr(stack_t **h, __attribute__((unused)) unsigned int counter)
+void _crotr(stack_t **h, __attribute__((unused)) unsigned int counter)
 {
 	stack_t *cpy;
 

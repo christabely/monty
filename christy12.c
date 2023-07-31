@@ -1,18 +1,19 @@
 #include "monty.h"
 
 /**
- * _fqueue - function prints the head
+ * _cqueue - function prints the head
  * @h: stack head
  * @counter: line
  * Return: void
  */
 
-void _fqueue(stack_t **h, unsigned int counter)
+void _cqueue(stack_t **h, unsigned int counter)
 {
 	(void)h;
 	(void)counter;
 	bus.lifi = 1;
 }
+
 /**
  * addqueue - function add node to tail stack
  * @n: new_value
